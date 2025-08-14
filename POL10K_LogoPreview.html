@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>POL10K — Solana Meme Project</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #000;
+      color: #f5f5f5;
+    }
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      overflow: hidden;
+    }
+    .video-bg video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.25;
+    }
+    .content {
+      position: relative;
+      z-index: 1;
+      padding-top: 2rem;
+      text-align: center;
+    }
+    .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 1rem auto;
+      border: 3px solid #00ffcc;
+    }
+    .btn {
+      background: #000;
+      color: #00ffcc;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.8rem;
+      color: #888;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="video-bg">
+    <video autoplay loop muted>
+      <source src="https://cdn.pixabay.com/vimeo/364327075/particle-waves.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="content">
+    <img src="https://pbs.twimg.com/profile_images/1937202483454996480/7fvJ0L4x.jpg" alt="POL10K Logo" class="logo" />
+    <header class="header">
+      <h1>POL10K</h1>
+      <p>The next big meme token on Solana 🌐</p>
+      <a href="#claim" class="btn">Claim Airdrop</a>
+    </header>
+
+    <section id="about">
+      <h2>About POL10K</h2>
+      <p>
+        POL10K is a bold and community-driven meme token on the Solana blockchain. With a total supply of 1 billion tokens,
+        we're building a fun, fast-growing crypto culture powered by memes, utility, and vibes.
+      </p>
+    </section>
+
+    <section id="tokenomics">
+      <h2>Tokenomics</h2>
+      <ul>
+        <li><strong>Total Supply:</strong> 1,000,000,000 POL10K</li>
+        <li><strong>Community:</strong> 35%</li>
+        <li><strong>Early Investors:</strong> 15%</li>
+        <li><strong>Contributors & Devs:</strong> 15%</li>
+        <li><strong>Liquidity & Marketing:</strong> 35%</li>
+      </ul>
+    </section>
+
+    <section id="roadmap">
+      <h2>Roadmap</h2>
+      <ul>
+        <li>✅ Q1: Launch & Build Community</li>
+        <li>🚀 Q2: Token Listing & Marketing Push</li>
+        <li>🛠️ Q3: Utility Features & Meme Events</li>
+        <li>🌍 Q4: Ecosystem Expansion</li>
+      </ul>
+    </section>
+
+    <section id="claim">
+      <h2>Claim Your POL10K</h2>
+      <p>Connect your wallet to claim airdrop (coming soon)</p>
+      <button disabled>Connect Wallet</button>
+      <button disabled>Claim (Disabled)</button>
+    </section>
+
+    <section id="faq">
+      <h2>FAQ</h2>
+      <p><strong>What is POL10K?</strong> A meme token with utility and community vibes.</p>
+      <p><strong>When will it list?</strong> TBA — follow us on Twitter!</p>
+    </section>
+
+    <footer>
+      <p>© 2025 POL10K — Built with ❤️ on Solana</p>
+    </footer>
+  </div>
+
+</body>
+</html>
